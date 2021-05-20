@@ -1,8 +1,14 @@
 package Fruit;
 
-public class Fruit {
+public abstract class Fruit {
+    private float weight;
 
-    public float getWeight() {
-        return 0;
+    public Fruit(float weight) {
+        this.weight = weight;
+    }
+    public float getWeight(){
+        return weight;
+
     }
 }
+
